@@ -12,6 +12,18 @@ Um branch é uma ramificação do projeto. A branch master é o ramo principal d
 Cada branch é um galho da branch principal (master) e cópia da branch principal a partir de determinado commit.
 Normalmente são criados novos branchs quando queremos testar uma funcionalidade, mas não queremos mexer no branch principal.
 
+## Pull Requests - Workflow fork
+
+- Vá até o repositório escolhido e crie um fork dele na sua conta github;
+- Faça um clone desse fork, faça suas modificações, commite e push para o repositório remoto;
+- Vá até o repositório com fork e crie um Pull Request.
+
+## Pull Requests - Workflow dono do repositório
+
+- Teste o código do pull request em uma branch separada para checar se há bugs ou erros;
+- Utilize o comando git fetch origin pull/codigo_do_pull_request/head:nome_da_branch_a_ser_criada para criar uma branch para testes;
+- Após todos os testes realizados, é possível aceitar o pull request e assim é feito um merge.
+
 ## Principais comandos
 
 git init -> inicia um repositório no projeto
