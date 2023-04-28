@@ -26,6 +26,10 @@ Normalmente são criados novos branchs quando queremos testar uma funcionalidade
 
 ## Principais comandos
 
+![Git CheatSheet](images/image1.png 'Git CheatSheet')
+
+[Git Flow CheatSheet](https://danielkummer.github.io/git-flow-cheatsheet/)
+
 `git init` - inicia um repositório no projeto
 
 `git status` - mostra o status do git (qual branch está, se há commits a fazer)
