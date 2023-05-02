@@ -118,6 +118,6 @@ Normalmente são criados novos branchs quando queremos testar uma funcionalidade
 
 `git revert id_do_commit` - faz um commit desfazendo o que foi feito no commit selecionado
 
-`git stash` - salva na máquina as alterações na árvore de commit para mudar de branch sem a necessidade de fazer commit
+`git stash` - salva na máquina as alterações da árvore de commits para mudar de branch sem a necessidade de fazer commit
 
 `git stash apply` - após voltar a branch em que salvou a árvore de commit, use esse comando para restaurar a árvore
