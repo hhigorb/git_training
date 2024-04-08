@@ -1,2 +1,3 @@
 # Anotações git
-Anotações de como usar o git
+
+Anotações de como usar o git.
