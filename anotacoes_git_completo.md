@@ -52,6 +52,8 @@ Normalmente são criados novos branchs quando queremos testar uma funcionalidade
 
 `git log --oneline` - mostra os commits em uma linha
 
+`git checkout branch` - vai até a branch selecionada
+
 `git checkout id_do_commit` - volta no tempo para o id de commit selecionado
 
 `git checkout master` - volta para a master (commit mais atual)
