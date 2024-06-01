@@ -94,7 +94,7 @@ Normalmente são criados novos branchs quando queremos testar uma funcionalidade
 
 `git rebase nome_da_branch` - junta a branch especificada com a master a partir do ponto de criação da branch
 
-`git clone caminho_do_repositorio` - clona um repositório para o projeto remoto
+`git clone caminho_do_repositorio` - clona um repositório localmente
 
 `git push` - envia os commits para o repositório remoto (exporta commits para branches remotos)
 
