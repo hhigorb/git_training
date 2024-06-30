@@ -11,6 +11,7 @@ arquivo.sql -> adicionar um arquivo no gitignore faz com que o arquivo não entr
 Um branch é uma ramificação do projeto. A branch master é o ramo principal do projeto.
 Cada branch é um galho da branch principal (master) e cópia da branch principal a partir de determinado commit.
 Normalmente são criados novos branchs quando queremos testar uma funcionalidade, mas não queremos mexer no branch principal.
+Lembrando que ao executar o comando de criar uma nova branch, ela será uma cópia da branch atual em que você está no momento.
 
 ## Pull Requests - Workflow fork
 
@@ -87,6 +88,8 @@ Normalmente são criados novos branchs quando queremos testar uma funcionalidade
 `git branch -b nome_da_branch` - cria uma branch e já entra na branch
 
 `git checkout nome_da_branch` - muda para a branch especificada
+
+`git checkout -b nome_da_branch` - cria uma nova branch e alterna para ela
 
 `git branch -d nome_da_branch` - deleta a branch especificada
 
