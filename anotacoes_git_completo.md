@@ -3,7 +3,9 @@
 ## .gitignore
 
 arquivo.sql -> adicionar um arquivo no gitignore faz com que o arquivo não entre no versionamento
+
 *.py -> ignora todos os arquivos com extensão .py
+
 **diretorio -> ignora todo o diretório
 
 ## Branchs
